@@ -29,7 +29,7 @@ int main ()
 		}
 	}
 		
-	if(Airline_Option==2)
+	else if(Airline_Option==2)
 	{
 		if(Class_type=='E' || Class_type=='e')
 		{
@@ -42,7 +42,7 @@ int main ()
 		}
 	}
 			
-	if(Airline_Option==3)
+	else if(Airline_Option==3)
 	{
 		if(Class_type=='E' || Class_type=='e')
 		{
@@ -55,7 +55,7 @@ int main ()
 		}
 	}
 	
-	if(Airline_Option==4)
+	else if(Airline_Option==4)
 	{
 		if(Class_type=='E' || Class_type=='e')
 		{
@@ -66,6 +66,11 @@ int main ()
 		{
 			Total_Price = 42800.0 * Number_of_seats;
 		}
+	}
+	
+	else
+	{
+		printf("You have entered an invalid option.");
 	}
 		
 	printf("Do you need any extra services ( y/n) : ");
