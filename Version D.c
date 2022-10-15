@@ -70,7 +70,7 @@ int main ()
 	
 	else
 	{
-		printf("You have entered an invalid option.");
+		printf("You have entered an invalid option.\n");
 	}
 		
 	printf("Do you need any extra services ( y/n) : ");
